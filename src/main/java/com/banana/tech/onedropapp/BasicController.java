@@ -8,9 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class BasicController 
 {
 
-	@GetMapping(path="/getsms")
+	@GetMapping(path="/")
 	public String getOTP() 
 	{
+		System.out.println("Hello");
 		return "SUCCESS";
 	}
 }
